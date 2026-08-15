@@ -46,6 +46,13 @@
   .pill{display:inline-block;border-left:3px solid var(--accent);
         padding:2px 10px;margin:2px 4px 2px 0;border-radius:var(--radius);
         font-size:.85rem;color:var(--ink);background:var(--panel)}
+  .logstrip{margin-top:10px;background:var(--panel);border:1px solid var(--line);
+            border-radius:var(--radius);padding:16px 18px;display:flex;
+            justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+  .logstrip p{color:var(--muted);font-size:.92rem}
+  .logstrip a{color:var(--accent);text-decoration:none;
+              font-family:Consolas,"Roboto Mono",monospace;font-size:.9rem}
+  .logstrip a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
@@ -67,6 +74,7 @@
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
     <a href="#certs">Certifications</a>
+    <a href="/blog/">Log</a>
     <a href="https://github.com/hythmrys">GitHub</a>
     <a href="https://www.linkedin.com/in/hythmrys">LinkedIn</a>
   </nav>
@@ -80,6 +88,10 @@
     <li><span class="q">Then —</span> Thermal &amp; fire systems (NFPA 855, UL 9540A), SCADA/EMS protocols (Modbus, CAN, IEC 61850), OT cybersecurity (IEC 62443).</li>
     <li><span class="q">Later —</span> Commissioning &amp; acceptance testing (EPRI ESIC), ancillary services, LCOS &amp; augmentation economics, capstone: fleet degradation model + autonomous troubleshooting playbook.</li>
   </ul>
+  <div class="logstrip">
+    <p>Field notes, course work, and site lessons — written in English, العربية, or 中文.</p>
+    <a href="/blog/">read the log →</a>
+  </div>
 </section>
 
 <section id="projects">
@@ -131,7 +143,7 @@
 </section>
 
 <footer>
-  <p>Al Jowf, Saudi Arabia · <a href="https://www.linkedin.com/in/hythmrys" style="color:var(--accent)">LinkedIn</a> · <a href="https://github.com/hythmrys" style="color:var(--accent)">GitHub</a></p>
+  <p>Al Jowf, Saudi Arabia · <a href="/blog/" style="color:var(--accent)">Log</a> · <a href="https://www.linkedin.com/in/hythmrys" style="color:var(--accent)">LinkedIn</a> · <a href="https://github.com/hythmrys" style="color:var(--accent)">GitHub</a></p>
   <p style="margin-top:6px">Built with GitHub Pages · placeholder content, iterating as the journey progresses</p>
 </footer>
 
