@@ -1,0 +1,5 @@
+title: Haitham Alrayes — BESS Engineering
+description: Learning journal and project log — utility-scale battery energy storage.
+markdown: kramdown
+permalink: /blog/:title/
+timezone: Asia/Riyadh
