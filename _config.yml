@@ -3,3 +3,5 @@ description: Learning journal and project log — utility-scale battery energy s
 markdown: kramdown
 permalink: /blog/:title/
 timezone: Asia/Riyadh
+plugins:
+  - jekyll-feed
