@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haitham Alrayes — Utility-Scale BESS Engineer</title>
+<meta name="description" content="Portfolio: utility-scale battery energy storage engineering — telemetry analysis, SOC/SOH estimation, power electronics, grid integration.">
+<style>
+  :root{
+    --bg:#0f1518; --panel:#17211​8; --panel2:#1b2b33;
+    --ink:#e6eaeb; --muted:#9fb0b7; --accent:#4db6ac; --accent2:#7fc8bf;
+    --line:#26333a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+  h1{font-size:2.2rem;letter-spacing:.5px}
+  h1 span{color:var(--accent)}
+  .tagline{color:var(--muted);margin-top:8px;font-size:1.05rem}
+  .badges{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+  .badge{border:1px solid var(--line);background:var(--panel2);color:var(--accent2);
+         padding:4px 12px;border-radius:999px;font-size:.82rem}
+  nav{margin-top:20px}
+  nav a{color:var(--muted);text-decoration:none;margin-right:18px;font-size:.95rem}
+  nav a:hover{color:var(--accent)}
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.35rem;color:var(--accent);margin-bottom:18px;letter-spacing:.4px}
+  h3{font-size:1.02rem;margin-bottom:6px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:18px}
+  .card p{color:var(--muted);font-size:.92rem;margin-top:6px}
+  .card a{color:var(--accent);text-decoration:none;font-size:.9rem}
+  .card a:hover{text-decoration:underline}
+  ul.tight{list-style:none}
+  ul.tight li{padding:6px 0;color:var(--muted);border-bottom:1px dashed var(--line)}
+  ul.tight li b{color:var(--ink);font-weight:600}
+  .timeline li{margin-bottom:14px}
+  .timeline .q{color:var(--accent);font-weight:600}
+  footer{padding:32px 0 48px;color:var(--muted);font-size:.85rem;text-align:center}
+  .pill{display:inline-block;background:#123;border-left:3px solid var(--accent);
+        padding:2px 10px;margin:2px 4px 2px 0;border-radius:4px;font-size:.85rem;color:var(--ink);background:var(--panel2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Haitham Alrayes <span>/ BESS Engineering</span></h1>
+  <p class="tagline">Technical Support Engineer — utility-scale battery energy storage.
+  Al Jowf, Saudi Arabia. Documenting the road from field engineer to principal-level BESS architect.</p>
+  <div class="badges">
+    <span class="badge">Utility-Scale BESS</span>
+    <span class="badge">1500 V DC · LFP</span>
+    <span class="badge">Telemetry Analytics · Python</span>
+    <span class="badge">BMS · PCS · EMS</span>
+    <span class="badge">中文 HSK-4</span>
+  </div>
+  <nav>
+    <a href="#journey">Learning Journey</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#certs">Certifications</a>
+    <a href="https://github.com/hythmrys">GitHub</a>
+    <a href="https://www.linkedin.com/in/hythmrys">LinkedIn</a>
+  </nav>
+</header>
+
+<section id="journey">
+  <h2>Learning Journey</h2>
+  <ul class="timeline">
+    <li><span class="q">Now —</span> BMS algorithms specialization (CU Boulder, Coursera): SOC/SOH estimation, Kalman filters, cell balancing. Applied to live utility fleet telemetry.</li>
+    <li><span class="q">Next —</span> Power electronics & grid integration: PCS topologies, IEEE 1547 / IEEE 2800, grid-forming controls.</li>
+    <li><span class="q">Then —</span> Thermal &amp; fire systems (NFPA 855, UL 9540A), SCADA/EMS protocols (Modbus, CAN, IEC 61850), OT cybersecurity (IEC 62443).</li>
+    <li><span class="q">Later —</span> Commissioning &amp; acceptance testing (EPRI ESIC), ancillary services, LCOS &amp; augmentation economics, capstone: fleet degradation model + autonomous troubleshooting playbook.</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>BESS Telemetry Analysis Toolkit</h3>
+      <p>Python (pandas) pipeline for utility-scale battery telemetry: OCV–SOC curves, string imbalance detection, thermal anomaly filtering. Methods shown on simulated/anonymized data.</p>
+      <a href="https://github.com/hythmrys/bess-engineering-portfolio">github.com/hythmrys/bess-engineering-portfolio →</a>
+    </div>
+    <div class="card">
+      <h3>SOC Estimation Studies</h3>
+      <p>Coulomb counting vs Kalman-filter estimation on LFP plateau behavior — where voltage fails and why. Coursework implementations + field notes.</p>
+      <a href="https://github.com/hythmrys/bess-engineering-portfolio">repo →</a>
+    </div>
+    <div class="card">
+      <h3>Field Troubleshooting Playbook</h3>
+      <p>Structured, safety-first fault-isolation procedures for a grid-forming BESS plant: alarm triage, isolation decision trees, escalation criteria. Written in simplified technical English.</p>
+      <a href="https://github.com/hythmrys/bess-engineering-portfolio">repo →</a>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills in Practice</h2>
+  <div class="grid">
+    <div class="card"><h3>Battery &amp; BMS</h3>
+      <span class="pill">LFP electrochemistry</span><span class="pill">OCV–SOC</span><span class="pill">Kalman filters</span><span class="pill">Cell balancing</span><span class="pill">Thermal runaway signatures</span>
+    </div>
+    <div class="card"><h3>Power &amp; Grid</h3>
+      <span class="pill">PCS / inverters</span><span class="pill">IEEE 1547</span><span class="pill">VRT / FRT</span><span class="pill">Grid-forming</span><span class="pill">Protection basics</span>
+    </div>
+    <div class="card"><h3>Data &amp; Controls</h3>
+      <span class="pill">Python · pandas</span><span class="pill">Time-series telemetry</span><span class="pill">SCADA / EMS</span><span class="pill">Modbus · CAN</span><span class="pill">MATLAB / Octave</span>
+    </div>
+    <div class="card"><h3>Site Operations</h3>
+      <span class="pill">LOTO / NFPA 70E</span><span class="pill">PPM / CM</span><span class="pill">FAT / SAT</span><span class="pill">Fire &amp; alarm systems</span><span class="pill">Permit compliance</span>
+    </div>
+  </div>
+</section>
+
+<section id="certs">
+  <h2>Certifications</h2>
+  <ul class="tight">
+    <li><b>Held:</b> IOSH · Data Analyst · Measurement &amp; Calibration of Devices &amp; Equipment · Emergency &amp; Disaster Preparedness</li>
+    <li><b>In progress:</b> OSHA 30 (Construction) → NABCEP ESIP track · CU Boulder BMS specialization</li>
+    <li><b>Planned:</b> NFPA CESCP · CCNA · CMRP · NEBOSH IGC · ISA/IEC 62443</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Al Jowf, Saudi Arabia · <a href="https://www.linkedin.com/in/hythmrys" style="color:var(--accent)">LinkedIn</a> · <a href="https://github.com/hythmrys" style="color:var(--accent)">GitHub</a></p>
+  <p style="margin-top:6px">Built with GitHub Pages · placeholder content, iterating as the journey progresses</p>
+</footer>
+
+</div>
+</body>
+</html>
